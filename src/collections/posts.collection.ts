@@ -29,11 +29,11 @@ export default {
         enum: ['യാത്രകൾ', 'കഥകൾ', 'കവിതകൾ', 'കുറുംകവിതകൾ', 'ലേഖനങ്ങൾ'],
       },
       date: {
-        type: 'string',
+        type: 'date',
         title: 'Display Date',
       },
       imageUrl: {
-        type: 'url',
+        type: 'media',
         title: 'Image URL',
       },
       excerpt: {
