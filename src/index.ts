@@ -10,11 +10,11 @@ import { createSonicJSApp, registerCollections } from '@sonicjs-cms/core'
 import type { SonicJSConfig } from '@sonicjs-cms/core'
 
 // Import your collection configurations
-// Add new collections here after creating them in src/collections/
+import postsCollection from './collections/posts.collection'
 
 // Register collections BEFORE creating the app.
 registerCollections([
-  // Add collections here as you create them
+  postsCollection,
 ])
 
 // Application configuration
